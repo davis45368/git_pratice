@@ -25,8 +25,3 @@ const diasTranscurridos = calcularDiasDesdeFecha(fechaGuardada);
 document.getElementById("dias").innerHTML = `<strong>Dias Transcurridos</strong> ${diasTranscurridos}`;
 
 var nombre = '{{ tarea.nombre }}';
-
-
-var largo = "RENOVACION  #040007012310 PLACA WSD93D MANUEL CASTAÑO  26 AGT-2023.pdf";
-
-console.log(largo.length)
